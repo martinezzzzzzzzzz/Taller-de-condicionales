@@ -156,15 +156,21 @@ else {
 
 //EJERCICIO 12
 
-let ValorBase = prompt("Ingrese el valor base del producto: ");
+let año = prompt("Ingrese un año: ");
 
-if (ValorBase > 500) {
-    let descuento = ValorBase * 0.15;
-    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
-} else if (ValorBase >= 300 && ValorBase <= 500) {
-    let descuento = ValorBase * 0.10;
-    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
+if ((año % 4 === 0 && anio % 100 !== 0) || anio % 400 === 0) {
+    console.log("El año " + año + " es bisiesto.");
 } else {
-    let descuento = ValorBase * 0.05;
-    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
+    console.log("El año " + año + " no es bisiesto.");
+}
+
+//EJERCICIO 13
+
+let usuario = prompt("Ingrese el nombre de usuario: ");
+let contrasena = prompt("Ingrese la contraseña: ");
+
+if (usuario === "admin" && contrasena === "1234") {
+    console.log("Acceso concedido");
+} else {
+    console.log("Acceso denegado");
 }
