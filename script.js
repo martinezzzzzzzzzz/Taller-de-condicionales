@@ -41,5 +41,18 @@ if (totalCompra > 100) {
 }
 
 else{ 
-    console.log ("No tienes descuento ")
+    console.log ("No tines descuento ")
+}
+
+//EJERCICIO 5
+
+let numero1 = prompt ("Ingrese el primer número: ")
+let numero2 = prompt ("Ingrese el segundo número: ")
+if (numero1 < numero2) { 
+    console.log ("El primer número es mayor que el segundo ")
+
+}
+else if (numero1 < numero2) { 
+    console.log ("El segundo número es mayor que el segundo ")
+
 }
