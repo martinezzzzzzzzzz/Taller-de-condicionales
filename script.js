@@ -18,3 +18,15 @@ if (numeroUsuario >=0) {
 else { 
     console.log ("El número es negativo ")
 }
+
+//EJERCICIO 3 
+
+let numero = prompt("Ingrese un número: ");
+
+numero = parseFloat(numero);
+
+if (numero % 2 === 0) {
+    console.log("El número es par");
+} else {
+    console.log("El número es impar");
+}
