@@ -165,10 +165,11 @@ if (imc < 18.5) {
 }
 
 // EJERCICIO 16
+
 let opcion = prompt("Elija un ejercicio para ejecutar (1-15): ");
 switch (opcion) {
     case '1':
-        // Ejecutar código del EJERCICIO 1
+        
         let edad = parseInt(prompt("Ingrese su edad: "));
         if (edad >= 18) {
             console.log("Eres mayor de edad");
@@ -177,7 +178,7 @@ switch (opcion) {
         }
         break;
     case '2':
-        // Ejecutar código del EJERCICIO 2
+       
         let numeroUsuario = parseFloat(prompt("Ingrese su número: "));
         if (numeroUsuario >= 0) {
             console.log("El número es positivo");
@@ -186,7 +187,7 @@ switch (opcion) {
         }
         break;
     case '3':
-        // Ejecutar código del EJERCICIO 3
+       
         let numero = parseFloat(prompt("Ingrese un número: "));
         if (numero % 2 === 0) {
             console.log("El número es par");
@@ -195,7 +196,7 @@ switch (opcion) {
         }
         break;
     case '4':
-        // Ejecutar código del EJERCICIO 4
+       
         let totalCompra = parseFloat(prompt("Ingrese el total de su compra: "));
         if (totalCompra > 100) {
             let descuento = totalCompra * 0.1;
@@ -206,7 +207,7 @@ switch (opcion) {
         }
         break;
     case '5':
-        // Ejecutar código del EJERCICIO 5
+        
         let numero1 = parseFloat(prompt("Ingrese el primer número: "));
         let numero2 = parseFloat(prompt("Ingrese el segundo número: "));
         if (numero1 > numero2) {
@@ -218,7 +219,7 @@ switch (opcion) {
         }
         break;
     case '6':
-        // Ejecutar código del EJERCICIO 6
+       
         let ClasifiacionDeEdad = parseInt(prompt("Ingrese su edad: "));
         if (ClasifiacionDeEdad >= 0 && ClasifiacionDeEdad <= 12) {
             console.log("Eres un niño");
@@ -231,7 +232,7 @@ switch (opcion) {
         }
         break;
     case '7':
-        // Ejecutar código del EJERCICIO 7
+        
         let nota = parseFloat(prompt("Ingrese una nota entre 0 y 100: "));
         if (nota >= 90 && nota <= 100) {
             console.log("¡EXCELENTE!");
@@ -246,7 +247,7 @@ switch (opcion) {
         }
         break;
     case '8':
-        // Ejecutar código del EJERCICIO 8
+       
         let OpcioMenu = prompt("Elija una opción de menú: 1.- Pizza 2.- Hamburguesa 3.- Tacos");
         switch (OpcioMenu) {
             case '1':
@@ -263,7 +264,7 @@ switch (opcion) {
         }
         break;
     case '9':
-        // Ejecutar código del EJERCICIO 9
+        
         let LadoTriangulo = parseFloat(prompt("Ingrese el primer lado del triángulo: "));
         let LadoTriangulo2 = parseFloat(prompt("Ingrese el segundo lado del triángulo: "));
         let LadoTriangulo3 = parseFloat(prompt("Ingrese el tercer lado del triángulo: "));
@@ -276,7 +277,7 @@ switch (opcion) {
         }
         break;
     case '10':
-        // Ejecutar código del EJERCICIO 10
+       
         let adivinaNumero = parseInt(prompt("Adivina un número entre 1 y 10: "));
         let numeroAleatorio = Math.floor(Math.random() * 10) + 1;
         if (adivinaNumero === numeroAleatorio) {
@@ -286,7 +287,7 @@ switch (opcion) {
         }
         break;
     case '11':
-        // Ejecutar código del EJERCICIO 11
+        
         let PrecioBase = parseFloat(prompt("Ingrese el precio base del producto: "));
         if (PrecioBase > 500) {
             let descuento = PrecioBase * 0.15;
@@ -300,7 +301,7 @@ switch (opcion) {
         }
         break;
     case '12':
-        // Ejecutar código del EJERCICIO 12
+       
         let año = parseInt(prompt("Ingrese un año: "));
         if ((año % 4 === 0 && año % 100 !== 0) || (año % 400 === 0)) {
             console.log("El año " + año + " es bisiesto.");
@@ -309,7 +310,7 @@ switch (opcion) {
         }
         break;
     case '13':
-        // Ejecutar código del EJERCICIO 13
+       
         let usuario = prompt("Ingrese el nombre de usuario: ");
         let contrasena = prompt("Ingrese la contraseña: ");
         if (usuario === "admin" && contrasena === "1234") {
@@ -319,7 +320,7 @@ switch (opcion) {
         }
         break;
     case '14':
-        // Ejecutar código del EJERCICIO 14
+      
         let hora = parseInt(prompt("Ingrese la hora (solo el número de la hora, de 0 a 23): "));
         if (hora >= 6 && hora < 12) {
             console.log("Buenos días");
@@ -332,7 +333,7 @@ switch (opcion) {
         }
         break;
     case '15':
-        // Ejecutar código del EJERCICIO 15
+      
         let peso = parseFloat(prompt("Ingrese su peso en kilogramos: "));
         let altura = parseFloat(prompt("Ingrese su altura en metros: "));
         let imc = peso / (altura * altura);
